@@ -1,0 +1,1 @@
+docker run booking-for-barbershop:v0.1

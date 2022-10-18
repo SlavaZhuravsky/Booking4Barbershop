@@ -1,0 +1,5 @@
+python-telegram-bot==12.7
+jdatetime==3.6.2
+convert-numbers==0.4
+
+aiogram~=2.22.2

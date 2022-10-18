@@ -1,0 +1,1 @@
+docker build -t booking-for-barbershop:v0.1 -f ./Dockerfile .
