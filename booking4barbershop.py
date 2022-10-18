@@ -159,7 +159,7 @@ async def bot_message(message: aiogram.types.Message):
                                reply_markup=murkup2)
 
     elif message.text == 'Обо мне 🙎‍♂️':
-        file = open('Bot/image/photo_2022-09-28 01.24.09.jpeg', 'rb')
+        file = open('image/photo_2022-09-28 01.24.09.jpeg', 'rb')
         await bot.send_photo(message.chat.id, file, messages.my_portfolio)
 
     elif message.text == 'Как добраться 🚴':
